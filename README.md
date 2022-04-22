@@ -2,8 +2,8 @@
 
 ![](https://i.imgur.com/SroGTOb.png)
 
-![](https://img.shields.io/github/license/takiyo0/Kazagumo)
-![](https://img.shields.io/github/stars/Takiyo0/Kazagumo) ![](https://img.shields.io/github/forks/Takiyo0/Kazagumo) ![](https://img.shields.io/github/tag/Takiyo0/Kazagumo) ![](https://img.shields.io/github/release/Takiyo0/Kazagumo) ![](https://img.shields.io/github/issues/Takiyo0/Kazagumo)
+![](https://img.shields.io/github/license/takiyo0/Bonymous)
+![](https://img.shields.io/github/stars/Takiyo0/Bonymous) ![](https://img.shields.io/github/forks/Takiyo0/Bonymous) ![](https://img.shields.io/github/tag/Takiyo0/Bonymous) ![](https://img.shields.io/github/release/Takiyo0/Bonymous) ![](https://img.shields.io/github/issues/Takiyo0/Bonymous)
 
 Is an open source anonymous board that allows user to give their comment anonymously without letting people know who they are.
 
@@ -68,7 +68,7 @@ Is an open source anonymous board that allows user to give their comment anonymo
 - **Mongodb**
 - **PostgreSQL server** (not required if you are using sqlite for image hosting)
 - **Google Auth Configs** for auth
-- **Public IP/Adress** for public use. You can use nginx or apache
+- **Public IP/Address** for public use. You can use nginx or apache
 
 ## Installation
 ### Git
