@@ -1,0 +1,47 @@
+.about-parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-child-body-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.about-child-body-child h1,
+.about-child-body-child h2 {
+    text-align: center;
+}
+
+.author-links a img {
+    width: 25px;
+}
+
+.contributors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contributor {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contributor img {
+    width: 45px;
+    height: 45px;
+}
+
+.contributor p {
+    font-size: 15px;
+    text-align: center;
+    margin: 5px 0 0 0;
+}

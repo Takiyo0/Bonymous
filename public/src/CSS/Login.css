@@ -1,0 +1,72 @@
+.login-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    background-color: #f4f4f4;
+    animation: flyUp 1s;
+}
+
+.login-header h1 {
+    text-align: center;
+}
+
+.login-method {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 10px 0 0 0;
+    outline: none;
+    background-color: transparent;
+    animation: flyUp 1s;
+}
+
+.login-method-child {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: solid 1px #ccc;
+    padding: 0 20px;
+    user-select: none;
+    cursor: pointer;
+    transition: .2s ease-in-out all;
+    border-radius: 10px;
+}
+
+.login-method-child:hover {
+    background-color: #d0d0d0;
+}
+
+.login-method-child p {
+    margin: 0 0 0 10px;
+}
+
+.login-method-child-disabled {
+    background-color: #d0d0d0;
+    cursor: not-allowed;
+    pointer-events: none;
+}
