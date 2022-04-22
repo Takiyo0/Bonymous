@@ -1,0 +1,123 @@
+.create-child-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    animation: flyIn .5s;
+}
+
+.create-child-body-title,
+.create-child-body-content,
+.create-child-body-short-description,
+.create-child-body-description,
+.create-child-body-visibility,
+.create-child-body-header {
+    font-size: 23px;
+    font-weight: bold;
+    animation: flyInUp 1s;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.create-child-body-title label,
+.create-child-body-content label,
+.create-child-body-short-description label,
+.create-child-body-description label,
+.create-child-body-visibility label,
+.create-child-body-header label {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.create-child-body-title input,
+.create-child-body-short-description input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.create-child-body-content textarea {
+    width: 100%;
+    min-height: 50px;
+    height: 200px;
+    max-height: 300px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+.create-child-body-visibility select {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.create-child-body-header input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(236, 236, 236);
+    background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.create-child-body-headers-button-confirm button {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    margin-bottom: 10px;
+    transition: .1s all ease-in-out;
+    cursor: pointer;
+}
+
+.create-child-body-headers-button-confirm button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.create-child-body-submit input {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 164, 68);
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    margin-bottom: 10px;
+    transition: .1s all ease-in-out;
+    cursor: pointer;
+}
+
+.create-child-body-submit input:hover {
+    background-color: rgb(73, 73, 73);
+    color: white;
+}

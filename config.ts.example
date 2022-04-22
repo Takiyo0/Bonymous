@@ -1,0 +1,13 @@
+export const MONGODB_URI = "";
+export const SECRET = "verySecret";
+export const DATABASE_TYPE = "SQLite"; // SQLite for small use, easy to setup | PostgreSQL, for bigger use, stable, more complex to setup
+
+export const GOOGLE = {}
+
+export const PostgreSQLConfig = {
+    host: "localhost",
+    port: 3500,
+    database: "",
+    user: "",
+    password: ""
+}

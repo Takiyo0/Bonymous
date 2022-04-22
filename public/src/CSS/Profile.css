@@ -1,0 +1,130 @@
+.profile-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.profile-avatar img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    animation: flyUp 1s;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.profile-info-username {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-right: 10px;
+    animation: flyDown 1s;
+}
+
+.profile-name {
+    flex: 1;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    animation: flyRight 1s;
+}
+
+.profile-info-last-visited p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+}
+
+.profile-info-bottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    animation: flyUp 1s;
+}
+
+.profile-info-admin {
+    margin-left: 20px;
+}
+
+.profile-info-admin p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+}
+
+.profile-body-pages {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin-top: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.profile-body-page {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    height: max-content;
+    border: 1px solid #e0e0e0;
+    transition: all 0.5s ease;
+    margin: 0 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.profile-body-page:first-child {
+    margin-left: 0;
+}
+
+.profile-body-page:hover {
+    background-color: #d5d5d5;
+    color: black;
+}
+
+.profile-body-page p {
+    margin: 0;
+}
+
+.profile-body-page-active {
+    background-color: #333;
+    color: white;
+}
+
+.profile-body-section-content {
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.posts-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
