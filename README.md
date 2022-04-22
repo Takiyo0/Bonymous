@@ -9,7 +9,36 @@ Is an open source anonymous board that allows user to give their comment anonymo
 
 **Table of Contents**
 
-[TOC]
+- [Bonymous](#bonymous)
+  * [Features](#features)
+  * [Currently working on](#currently-working-on)
+  * [Requirements](#requirements)
+  * [Installation](#installation)
+    + [Git](#git)
+    + [Release](#release)
+  * [Configuration](#configuration)
+    + [Backend](#backend)
+      - [MongoDB URI (required)](#mongodb-uri--required-)
+      - [Secret (required)](#secret--required-)
+      - [Database Type (optional)](#database-type--optional-)
+      - [Google (required)](#google--required-)
+      - [PostgreSQL Config (optional if you are using SQLite)](#postgresql-config--optional-if-you-are-using-sqlite-)
+    + [Frontend](#frontend)
+      - [Title (optional)](#title--optional-)
+      - [Description (optional)](#description--optional-)
+  * [Build](#build)
+    + [Backend](#backend-1)
+    + [Frontend](#frontend-1)
+  * [Running](#running)
+  * [Screenshots](#screenshots)
+    + [Home](#home)
+    + [Board](#board)
+    + [Board edit](#board-edit)
+    + [Search](#search)
+    + [Code invite](#code-invite)
+  * [Tutorials](#tutorials)
+    + [Setting up your mongoDB](#setting-up-your-mongodb)
+    + [More coming soon](#more-coming-soon)
 
 ## Features
 1. Open source
